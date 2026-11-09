@@ -53,7 +53,7 @@ This project implements that pattern from the ground up: a 3-step flow that coll
 ## 🏗️ Architecture
 
 ### High-Level Flow
-
+```
 ┌────────────────────────────────────────────────────────┐
 │				RegistrationWizard (Parent)				 │
 │ ┌────────────────────────────────────────────────────┐ │
@@ -72,7 +72,7 @@ This project implements that pattern from the ground up: a 3-step flow that coll
 │ 				[← Back] [Next → / Submit] 				 │
 │ 					</FormProvider>  					 │
 └────────────────────────────────────────────────────────┘
-
+```
 
 ### Why `FormProvider` over Prop Drilling?
 
