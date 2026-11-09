@@ -206,7 +206,7 @@ See `Prompts.md` for the full session log.
 
 Deployed on Vercel with the Vite preset:
 
-Live URL: 	
+Live URL: [https://registration-wizard-five-theta.vercel.app](https://registration-wizard-five-theta.vercel.app/)
 
 ## 📝 License
 
