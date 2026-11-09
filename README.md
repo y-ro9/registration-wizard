@@ -115,7 +115,7 @@ re-hydrates each input with its existing value.
 ---
 
 ## 📂 Project Structure
-
+```
 registration-wizard/
 ├── index.html
 ├── package.json
@@ -137,7 +137,7 @@ registration-wizard/
 	    ├── Step1PersonalInfo.jsx
 	    ├── Step2AccountDetails.jsx
 	    └── Step3Review.jsx
-
+```
 ---
 
 ## 🚀 Getting Started
