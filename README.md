@@ -55,22 +55,22 @@ This project implements that pattern from the ground up: a 3-step flow that coll
 ### High-Level Flow
 ```
 ┌────────────────────────────────────────────────────────┐
-│				RegistrationWizard (Parent)				 │
+│		RegistrationWizard (Parent)		 │
 │ ┌────────────────────────────────────────────────────┐ │
 │ │ useForm({ mode: 'onChange', resolver: zodResolver  │ │
 │ │ ─── Single unified form state ──────────────────   │ │
 │ └────────────────────────────────────────────────────┘ │
-│ 														 │
-│			 <FormProvider {...methods}> 				 │
-│ 														 │
-│	 <ProgressBar step={step} totalSteps={3} /> 		 │
-│ 														 │
-│			 {step === 1 && <Step1PersonalInfo />} 		 │
-│ 		{step === 2 && <Step2AccountDetails />} 		 │
-│			 {step === 3 && <Step3Review />} 			 │
-│ 														 │
-│ 				[← Back] [Next → / Submit] 				 │
-│ 					</FormProvider>  					 │
+│ 							 │
+│ <FormProvider {...methods}> 				 │
+│ 							 │
+│ <ProgressBar step={step} totalSteps={3} /> 		 │
+│ 							 │
+│ {step === 1 && <Step1PersonalInfo />} 		 │
+│ {step === 2 && <Step2AccountDetails />} 		 │
+│ {step === 3 && <Step3Review />} 			 │
+│ 							 │
+│ [← Back] [Next → / Submit] 				 │
+│ </FormProvider>  					 │
 └────────────────────────────────────────────────────────┘
 ```
 
