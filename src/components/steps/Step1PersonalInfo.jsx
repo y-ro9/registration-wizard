@@ -17,7 +17,7 @@ export default function Step1PersonalInfo() {
           className={`input ${
             errors.firstName && touchedFields.firstName ? 'input-error' : ''
           }`}
-          placeholder="Jane"
+          placeholder="Yash"
           autoComplete="given-name"
           {...register('firstName')}
         />
@@ -33,7 +33,7 @@ export default function Step1PersonalInfo() {
           className={`input ${
             errors.lastName && touchedFields.lastName ? 'input-error' : ''
           }`}
-          placeholder="Doe"
+          placeholder="Raj"
           autoComplete="family-name"
           {...register('lastName')}
         />
